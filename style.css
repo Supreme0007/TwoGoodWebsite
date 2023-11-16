@@ -181,8 +181,6 @@ body {
   list-style: none;
 }
 
-
-
 #p2text {
   position: relative;
   width: 100%;
@@ -488,6 +486,19 @@ body {
     /* background-color: red;  */
   }
 
+  .elem .dets {
+    height: 50px;
+    border-radius: 50px;
+    width: 75vw;
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(230, 216, 218);
+  }
+
+  .detsd .ico {
+    font-size: 8vw;
+  }
+
   #page3 {
     min-height: 120vh;
     width: 100%;
@@ -566,7 +577,7 @@ body {
     font-family: gilroy;
   }
 
-  #page4{
+  #page4 {
     flex-wrap: wrap;
     height: 130vh;
   }
@@ -581,11 +592,11 @@ body {
     flex-direction: column;
   }
 
-.impacttext h5{
-  margin-top: 5vw;
-}
+  .impacttext h5 {
+    margin-top: 5vw;
+  }
 
-  .impactimg{
+  .impactimg {
     width: 100%;
     align-items: center;
   }
@@ -594,7 +605,7 @@ body {
     width: 100%;
     align-items: center;
     flex-direction: column;
-}
+  }
 
   .impactimg img {
     width: 90%;
@@ -603,43 +614,43 @@ body {
     align-items: center;
     justify-content: center;
     transition: transform 1s ease;
-}
+  }
 
-#page5 {
-  width: 100%;
-  height: 50vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-top: 15vw;
-  margin-bottom: 10vw;
-  padding: 1vw;
-}
+  #page5 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+    padding: 1vw;
+  }
 
-#mailbox h1 {
-  font-family: gilroy;
-  margin-bottom: 0.2vw;
-  font-size: 4vw;
-}
+  #mailbox h1 {
+    font-family: gilroy;
+    margin-bottom: 0.2vw;
+    font-size: 4vw;
+  }
 
-#page6{
-  height: 56vh;
-  flex-direction: column;
-  margin-bottom: 10vw;
-}
+  #page6 {
+    height: 56vh;
+    flex-direction: column;
+    margin-bottom: 10vw;
+  }
 
-.ltext h5, .rtext h5 {
-  margin: 2vw -3.5vw;
-  opacity: 0.5;
-  text-align: center;
-}
+  .ltext h5,
+  .rtext h5 {
+    margin: 2vw -3.5vw;
+    opacity: 0.5;
+    text-align: center;
+  }
 
-.rtext a {
-  align-items: center;
-}
+  .rtext a {
+    align-items: center;
+  }
 
-#lastpara{
-  font-size: 3vw;
-}
-
+  #lastpara {
+    font-size: 3vw;
+  }
 }
